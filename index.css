@@ -1,0 +1,56 @@
+
+body {
+    background: #f1f5f8;
+    background-color:rgb(181, 201, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+}
+
+#form {
+background-color:rgb(237, 232, 239);
+height: auto;
+width:auto;
+padding-bottom: 2rem;
+
+}
+
+
+.form-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color:black;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input:focus {
+    outline: none;
+    border: solid 2px #f0c3e7;
+}
+
+.birthdayList {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    background-color: rgb(244, 185, 217);
+    color: white;
+    font-size: 1rem;
+    border: 2px solid rgb(234, 228, 234);
+    border-radius: 5px; 
+   }
+
+button:hover {
+    background-color:rgb(244, 154, 204);
+    border-color: #f3f0f3; 
+}
