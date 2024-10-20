@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday Reminder</title>
+
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -15,20 +17,20 @@
             <img src="https://play-lh.googleusercontent.com/i_c8VRkWt2aDGWVq46bkdoeQWeU4O9xYD71qELT4vvgC45_Ar62Usu7n--Hykvzn1EqM" alt="Birthday Reminder Logo" height="300px" width="300px">
         </div>
 
-        <div id="form">
+        <form id="form">
             <div>
-                <input type="text" class="form-input" id="reminder" name="reminder" placeholder="Enter name" required>
+                <input type="text" class="form-input" id="name" name="name" placeholder="Enter name" required>
                 <input type="date" class="form-input" id="reminder" name="reminder" required>
                 <br>
-                <button id="add">Add Birthday</button>
+                <button type="submit" id="add">Add Birthday</button>
               
             </div>
-        </div>
+        </form>
 
         <div class="birthdayList">
             <br>
-            <span>Person's Name</span>
-            <span>Date of birth</span>
+            <span></span>
+            <span></span>
             <button class="edit">Edit</button>
             <button class="delete">Delete</button>
           </div>
