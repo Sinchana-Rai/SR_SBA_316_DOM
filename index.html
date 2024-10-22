@@ -12,27 +12,32 @@
 <body>
     
     <div class="container">
+ 
+        <select id="colorDropdown">
 
+        </select>
         <div class="heading">
             <img src="https://play-lh.googleusercontent.com/i_c8VRkWt2aDGWVq46bkdoeQWeU4O9xYD71qELT4vvgC45_Ar62Usu7n--Hykvzn1EqM" alt="Birthday Reminder Logo" height="300px" width="300px">
+        </div>
+        <div id="errorDisplay">
+            <br>
         </div>
 
         <form id="form">
             <div>
-                <input type="text" class="form-input" id="name" name="name" placeholder="Enter name" required>
-                <input type="date" class="form-input" id="reminder" name="reminder" required>
+                <input type="text" class="form-input" id="name" name="name" placeholder="Enter name" >
+                <input type="date" class="form-input" id="bDate" name="bDate" >
                 <br>
                 <button type="submit" id="add">Add Birthday</button>
               
             </div>
         </form>
+        <div id="errorDisplay"></div>
+     
 
-        <div class="birthdayList">
+        <div id="birthdayList">
             <br>
-            <span></span>
-            <span></span>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
+
           </div>
           
     </div>
